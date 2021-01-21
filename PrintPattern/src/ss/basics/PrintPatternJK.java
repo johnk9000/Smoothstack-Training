@@ -2,7 +2,8 @@
 @author John Kim
 Java program that will print out various triangle patterns made of asterisks
 */
-//package com.ss.basics.printpattern;
+package com.ss.basics.printpattern;
+
 public class PrintPatternJK {
     
     public static void main(String[] args) {
