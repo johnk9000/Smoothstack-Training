@@ -3,7 +3,6 @@
 Java program that will print out various triangle patterns made of asterisks
 */
 //package com.ss.basics.printpattern;
-
 public class PrintPatternJK {
     
     public static void main(String[] args) {
@@ -27,10 +26,20 @@ public class PrintPatternJK {
             System.out.println();
         }
         System.out.println(lineBreak);
-        // 3) Triangle
-
+        // 3) Center triangle
+        for(int i = 0; i < 4; i++) {
+            // printing astericks per row
+            for(int j = 0; j < 9; j++) {
+                if(j >= (4 - i) && j <= (4 + i)) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
         System.out.println(lineBreak);
-        // 4) Upside-down triangle
+        // 4) Upside-down center triangle
 
         System.out.println(lineBreak);
     }
