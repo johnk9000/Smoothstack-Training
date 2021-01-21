@@ -19,7 +19,13 @@ public class PrintPatternJK {
         }
         System.out.println(lineBreak);
         // 2) Upside-down right triangle
-
+        for(int i = 0; i < 4; i++) {
+            // printing astericks per row
+            for(int j = 4; j > i; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         System.out.println(lineBreak);
         // 3) Triangle
 
